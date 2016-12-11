@@ -1,0 +1,27 @@
+.xc-tabBar{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #eee;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    right: 0;
+    padding:6px 0;
+}
+
+.xc-tabBar__item {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.xc-item__img {
+    width:20px;
+    height:20px;
+}
+.xc-item__title{
+    padding-top:6px;
+    font-size: 12px;
+}
